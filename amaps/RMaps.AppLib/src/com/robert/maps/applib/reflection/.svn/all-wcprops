@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/583/trunk/RMaps.AppLib/src/com/robert/maps/applib/reflection
+END
+RGestureDetectorFroyo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/583/trunk/RMaps.AppLib/src/com/robert/maps/applib/reflection/RGestureDetectorFroyo.java
+END
+VerScaleGestureDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/539/trunk/RMaps.AppLib/src/com/robert/maps/applib/reflection/VerScaleGestureDetector.java
+END
+OnExGestureListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/539/trunk/RMaps.AppLib/src/com/robert/maps/applib/reflection/OnExGestureListener.java
+END
+RGestureHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/583/trunk/RMaps.AppLib/src/com/robert/maps/applib/reflection/RGestureHelper.java
+END
+VerGestureDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/583/trunk/RMaps.AppLib/src/com/robert/maps/applib/reflection/VerGestureDetector.java
+END
+RGestureDetectorCupcake.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/583/trunk/RMaps.AppLib/src/com/robert/maps/applib/reflection/RGestureDetectorCupcake.java
+END

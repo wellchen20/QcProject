@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">智能质控</string>
+    <!--<string name="app_name">炸药震源移动作业系统</string>-->
+    <string name="task_setting_appkey">项目AppKey</string>
+    <string name="task_setting_01">爆炸机编号</string>
+    <string name="task_setting_02">手持设备编号</string>
+    <string name="task_setting_03">井口坐标匹配最大距离</string>
+    <string name="task_setting_04">安全距离</string>
+    <string name="task_setting_05">中控-IP</string>
+    <string name="task_setting_06">中控-端口</string>
+    <string name="task_setting_07">大小号规则</string>
+    <string name="task_setting_08">线号差值</string>
+    <string name="task_setting_09">点号差值</string>
+    <string name="task_setting_10">Ready信号等待时间</string>
+    <string name="task_setting_12">发送位置间隔时间</string>
+    <string name="task_setting_13">井炮源驱动模式</string>
+    <string name="task_powertime">能量衰减时间</string>
+    <string name="task_setting_11">组织机构编号</string>
+    <string name="sys_setting_dscloud">是否启用服务器</string>
+
+    <string name="set_app_key">采集项目编号：</string>
+    <string name="set_app_key_hint">示例：1i131fFJ</string>
+    <string name="server_url_setting">服   务   器  IP ：</string>
+    <string name="wifi_url_setting">中控WIFI地址设置</string>
+    <string name="wifi_port_setting">中控WIFI端口设置</string>
+    <string name="server_url_input">示例:10.11.155.1</string>
+    <string name="server_port_setting">服务器端口号：</string>
+    <string name="pipei_dis_setting">井口坐标匹配最大距离(单位米)</string>
+    <string name="pipei_dis_setting_hint">单位米</string>
+    <string name="safe_dis_setting">安全距离设置(单位米)</string>
+    <string name="safe_dis_setting_hint">单位米</string>
+    <string name="rule_line_setting">线号差值设置</string>
+    <string name="rule_line_setting_hint">请输入整数差值</string>
+    <string name="rule_point_setting">点号差值设置</string>
+    <string name="rule_point_setting_hint">请输入整数差值</string>
+    <string name="server_port_input">示例:8011</string>
+    <string name="ready_timeout_setting">Ready信号等待时间</string>
+    <string name="ready_timeout_hint">请输入等待秒数</string>
+    <string name="gps_collect_time_interval">gps采集时间间隔</string>
+
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+
+    <string name="menu_map">地图</string>
+    <string name="menu_news">信息</string>
+    <string name="menu_work">工作</string>
+    <string name="menu_me">我</string>
+
+    <string name="activity_map_manager">地图管理</string>
+    <string name="online_map">在线地图</string>
+    <string name="outline_map">离线地图</string>
+    <string name="map_settting">地图设置</string>
+    <string name="map_rotate">地图旋转</string>
+    <string name="more">更多</string>
+
+    <string name="project_map">工区图层</string>
+    <string name="activity_project_manager">工区图层管理</string>
+    <string name="project_overlay_file">工区图层文件显示</string>
+    <string name="select_all">全选</string>
+    <string name="show_details">详细</string>
+    <string name="import_interest_file">导入兴趣点</string>
+    <string name="import_track_file">导入轨迹</string>
+    <string name="content_null">空</string>
+
+    <string name="session">会话</string>
+    <string name="user_name">用户名</string>
+    <string name="password">密码</string>
+    <string name="register">注册</string>
+    <string name="Is_landing">正在登录...</string>
+    <string name="User_name_cannot_be_empty">用户名不能为空！</string>
+
+    <string name="press_again_exit">再按一次退出应用</string>
+
+    <string name="search_object">对象</string>
+    <string name="search_people">人</string>
+    <string name="search_detection">检波点</string>
+    <string name="search_shot">炮点</string>
+    <string name="search_interest">兴趣点</string>
+    <string name="search_guide">导航</string>
+    <string name="search_clear">清除</string>
+
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+    <string name="work_design">施工设计</string>
+    <string name="update_time">更新时间</string>
+    <string name="design_total">设计总量</string>
+    <string name="task_list">任务列表</string>
+    <string name="work_design_task">施工设计和任务</string>
+    <string name="process">进度</string>
+    <string name="operation">操作</string>
+
+    <string name="start_off">驻地出发</string>
+    <string name="arrived_at">抵达工地</string>
+    <string name="get_back">工地返回</string>
+    <string name="end_off">抵达驻地</string>
+    <string name="plate_number">车牌号</string>
+    <string name="driver">驾驶员</string>
+    <string name="destination">任务/目的地</string>
+    <string name="departure_time">出发时间</string>
+    <string name="departure_place">出发地点</string>
+    <string name="people_number">人数</string>
+    <string name="remark">备注</string>
+    <string name="arrived_time">到达时间</string>
+    <string name="arrived_area">到达地点</string>
+    <string name="estimated_time_of_arrival">预计到达时间</string>
+    <string name="estimated_return_time">预计返回时间</string>
+
+    <string name="get_carkey">领取</string>
+    <string name="get_carkey_title">领取钥匙</string>
+    <string name="back_carkey">返还</string>
+    <string name="back_carkey_title">返还钥匙</string>
+
+    <string name="clear_history">清除历史</string>
+    <string name="title_activity_login2">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">TFL Detect</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+
+</resources>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/708/trunk/RMaps.AppLib/res/menu
+END
+id.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/680/trunk/RMaps.AppLib/res/menu/id.xml
+END
+tracklist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/598/trunk/RMaps.AppLib/res/menu/tracklist.xml
+END
+main_option_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/700/trunk/RMaps.AppLib/res/menu/main_option_menu.xml
+END
+poicategorylist_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/534/trunk/RMaps.AppLib/res/menu/poicategorylist_menu.xml
+END
+poilist_select_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/708/trunk/RMaps.AppLib/res/menu/poilist_select_menu.xml
+END
+poilist_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/708/trunk/RMaps.AppLib/res/menu/poilist_menu.xml
+END

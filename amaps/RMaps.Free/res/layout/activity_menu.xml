@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    
+    
+     	<FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+     
+		<TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+	
+		<View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:background="#d6d6d6" />
+    
+    	<RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_weight="0"
+            android:layout_height="50dp" >
+
+            <RadioGroup
+                android:id="@+id/main_radio"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:background="#fcfcfc"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_button_map"
+                    style="@style/main_tab_bottom"
+                    android:layout_marginTop="2.0dip"
+                    android:drawableTop="@drawable/menu_map"
+					android:layout_width="0dp"
+					android:layout_weight="1"
+                    android:tag="radio_button0"
+                    android:background="@null"
+                    android:text="@string/menu_map" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_work"
+                    style="@style/main_tab_bottom"
+                    android:layout_marginTop="2.0dip"
+                    android:drawableTop="@drawable/menu_work"
+                    android:tag="radio_button1"
+                    android:background="@null"
+					android:layout_width="0dp"
+					android:layout_weight="1"
+                    android:text="@string/menu_work" />
+
+				<FrameLayout
+					android:layout_width="0dp"
+					android:layout_weight="1"
+					android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/radio_button_news"
+                    style="@style/main_tab_bottom"
+                    android:layout_marginTop="2.0dip"
+                    android:drawableTop="@drawable/menu_news"
+                    android:tag="radio_button2"
+                    android:background="@null"
+					android:onClick="onClick"
+                    android:text="@string/menu_news" />
+					<ImageView
+						android:id="@+id/iv_news"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/point_online"
+						android:layout_gravity="right|top"
+						android:paddingRight="15dp"
+						android:visibility="invisible"/>
+				</FrameLayout>
+
+				<FrameLayout
+					android:layout_width="0dp"
+					android:layout_weight="1"
+					android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/radio_button_my"
+                    style="@style/main_tab_bottom"
+                    android:layout_marginTop="2.0dip"
+                    android:drawableTop="@drawable/menu_my"
+                    android:tag="radio_button3"
+                    android:background="@null"
+					android:onClick="onClick"
+                    android:text="@string/menu_me" />
+					<ImageView
+						android:id="@+id/iv_task"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/point_online"
+						android:layout_gravity="right|top"
+						android:paddingRight="15dp"
+						android:visibility="invisible"/>
+				</FrameLayout>
+
+            	</RadioGroup>
+
+        	</RelativeLayout>
+        
+    	<View
+        	android:layout_width="match_parent"
+        	android:layout_height="3dp" />
+    </LinearLayout>
+
+</TabHost>

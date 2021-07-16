@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	URL_BUILDER_TYPE, // 0 - OSM,
+		1 - Google,
+		2 - Yandex,
+		3 - Yandex.Traffic,
+		4 - Google.Sattelite,
+		5 - openspace,
+		6 - microsoft,
+		7 - Docelu.pl
+		8 - VFR Chart
+		9 - http://www.avcharts.com/
+		10 - Soviet Military Maps
+		11 - VFRCB
+		12 - user own map source
+		13 - blank
+	TILE_SOURCE_TYPE, //
+		0 - internet,
+		3 - MapNav file,
+		4 - TAR,
+		5 - sqlitedb
+		6 - blank
+	PROJECTION; //
+		1-меркатор на сфероид,
+		2- на эллипсоид,
+		3- OSGB 36 British national grid reference system
+	-->
+
+<root>
+    <!-- 
+	<map id="yandexsat" cat="Yandex" name="Yandex.Sattelite" descr="http://maps.yandex.ru" baseurl="http://sat01.maps.yandex.net/tiles?l=sat&amp;v=3.102.0&amp;x=" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="14" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="2" TILE_SOURCE_TYPE="0" PROJECTION="2" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="yandexpeople" cat="Yandex" name="Yandex.People's" descr="http://maps.yandex.ru" baseurl="http://03.pvec.maps.yandex.net/?l=pmap&amp;x=" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="2" TILE_SOURCE_TYPE="0" PROJECTION="2" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="yaharsat" cat="Yandex" name="Yandex.Haritalar.Sattelite" descr="http://harita.yandex.com.tr" baseurl="http://sat02.maps.yandex.net/tiles?l=sat&amp;v=1.35.0&amp;x=" IMAGE_FILENAMEENDING="&amp;lang=tr_TR" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="14" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="2" TILE_SOURCE_TYPE="0" PROJECTION="2" YANDEX_TRAFFIC_ON="0"></map>
+
+	<map id="mapnik" cat="OSM" name="OSM.Standart" descr="http://www.openstreetmap.org/" baseurl="http://tile.openstreetmap.org/" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="0" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="osmcyc" cat="OSM" name="OSM.Cycle" descr="http://www.openstreetmap.org/" baseurl="http://a.tile.opencyclemap.org/cycle/" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="0" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="osmtran" cat="OSM" name="OSM.Transport" descr="http://www.openstreetmap.org/" baseurl="http://c.tile2.opencyclemap.org/transport/" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="0" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map layer="true" id="seamark" cat="OSM" name="OSM.SeaMark" descr="http://map.openseamap.org//" baseurl="http://t1.openseamap.org/seamark/" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="0" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+
+	<map layer="true" id="osmsemi" cat="OSM" name="OSM.Semitransparent" descr="http://openmapsurfer.uni-hd.de" baseurl="http://129.206.74.245:8003/tms_h.ashx?x=" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="2" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map layer="true" id="osmadmin" cat="OSM" name="OSM.Admin Boundaties" descr="http://openmapsurfer.uni-hd.de" baseurl="http://129.206.74.245:8007/tms_b.ashx?x=" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="2" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map layer="true" id="osmhill" cat="OSM" name="ASTER GDEM &amp; SRTM Hillshade" descr="http://openmapsurfer.uni-hd.de" baseurl="http://129.206.74.245:8004/tms_hs.ashx?x=" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="2" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map layer="true" id="osmcont" cat="OSM" name="ASTER GDEM Contour Lines (14-18)" descr="On zoom 14-18 http://openmapsurfer.uni-hd.de" baseurl="http://129.206.74.245:8006/tms_il.ashx?x=" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="13" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="2" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	
+	<map id="msmapearth" isfake="false" name="微软卫星图（已纠偏）" descr="" baseurl="http://a0.ortho.tiles.virtualearth.net/tiles/a" IMAGE_FILENAMEENDING=".jpg?g=45" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="512" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0" /> 
+	
+	<map id="msmapchina" cat="Microsoft" name="Microsoft Maps China" descr="" baseurl="http://r0.tiles.ditu.live.com/tiles/r" IMAGE_FILENAMEENDING=".png?g=1" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="msmapearth" cat="Microsoft" name="Microsoft Virtual Earth" descr="" baseurl="http://a0.ortho.tiles.virtualearth.net/tiles/a" IMAGE_FILENAMEENDING=".jpg?g=45" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="msmaphybrid" cat="Microsoft" name="Microsoft Hybrid" descr="" baseurl="http://h0.ortho.tiles.virtualearth.net/tiles/h" IMAGE_FILENAMEENDING=".jpg?g=45" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="bingbi" cat="BING" name="Bing Hybrid" descr="http://www.bing.com" baseurl="http://ecn.dynamic.t1.tiles.virtualearth.net/comp/ch/" IMAGE_FILENAMEENDING="?mkt=en-us&amp;it=A,G,L&amp;shading=hill&amp;n=z&amp;cb=1" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="bingaero" cat="BING" name="Bing Aerial" descr="http://www.bing.com" baseurl="http://ecn.t1.tiles.virtualearth.net/tiles/a" IMAGE_FILENAMEENDING=".jpeg?g=1134&amp;n=z" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	
+	<map id="arcing" cat="USA" name="ArcGIS Imagery" descr="http://www.arcgis.com/home/webmap/viewer.html" baseurl="http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="17" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="12" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="arcstr" cat="USA" name="ArcGIS Streets" descr="http://www.arcgis.com/home/webmap/viewer.html" baseurl="http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="12" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="arctopo" cat="USA" name="ArcGIS Topographic" descr="http://www.arcgis.com/home/webmap/viewer.html" baseurl="http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="12" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+
+	<map id="cykloatlas" name="Cykloatlas CZ" descr="http://www.cykloserver.cz/cykloatlas/" baseurl="http://services.tmapserver.cz/stiles/gm/shc/" IMAGE_FILENAMEENDING=".png?m=s&amp;t=1342300315&amp;k=5we6HahGpebRedkR5NxReQ" ZOOM_MINLEVEL="7" ZOOM_MAXLEVEL="15" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="0" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="docelupl" name="Docelu.pl Poland" descr="http://docelu.pl" baseurl="http://i.wp.pl/m/tiles013/" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="2" ZOOM_MAXLEVEL="17" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="7" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="mytopo" name="MyTopo" descr="http://www.mytopo.com" baseurl="http://maps.mytopo.com/mytopoz63g9R/tilecache.py/1.0.0/topoG/" IMAGE_FILENAMEENDING=".jpg" ZOOM_MINLEVEL="9" ZOOM_MAXLEVEL="15" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="0" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	-->
+
+	<!-- 
+	<map id="msmapchina" isfake="true" name="微软地图" descr="" baseurl="http://r0.tiles.ditu.live.com/tiles/r" IMAGE_FILENAMEENDING=".png?g=1" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0" /> 
+
+	<map id="blank" name="Blank" descr="" baseurl="" IMAGE_FILENAMEENDING="" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="20" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="13" TILE_SOURCE_TYPE="6" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	-->
+	<map id="googleweixing" isfake="false" name="谷歌卫星图" descr="" baseurl="http://mt0.google.cn/vt/lyrs=s&amp;hl=zh-CN&amp;" IMAGE_FILENAMEENDING=".jpg" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="20" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="4" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<!-- 
+	<map id="googleweixing_gaode" isfake="true" name="谷歌卫星+高德路网（已纠偏）" descr="" baseurl="http://mt0.google.cn/vt/lyrs=s@210000000&amp;hl=zh-CN&amp;gl=CN&amp;src=app&amp;addlw=gaode&amp;" IMAGE_FILENAMEENDING=".jpg" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="20" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="4" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="googleweixing_google" isfake="true" name="谷歌卫星+谷歌路网（已纠偏）" descr="" baseurl="http://mt0.google.cn/vt/lyrs=s@210000000&amp;hl=zh-CN&amp;gl=CN&amp;src=app&amp;addlw=google&amp;" IMAGE_FILENAMEENDING=".jpg" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="20" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="4" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="msmapchina" isfake="true" name="微软地图（已纠偏）" descr="" baseurl="http://r0.tiles.ditu.live.com/tiles/r" IMAGE_FILENAMEENDING=".png?g=1" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="128" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0" /> 
+	<map id="googlemap_hd" isfake="true" name="谷歌地图(高清)（已纠偏）" descr="" baseurl="http://mt0.google.cn/vt/lyrs=m@207397449&amp;hl=zh-CN&amp;gl=cn&amp;src=app&amp;scale=2&amp;" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="20" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="1" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="gaodemap" isfake="true" name="高德地图（已纠偏）" descr="" baseurl="http://wprd01.is.autonavi.com/appmaptile?lang=zh_cn&amp;size=1&amp;scale=1&amp;style=7&amp;" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="1" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	
+	<map id="tianditu" isfake="false" name="天地图" descr="" baseurl="http://t0.tianditu.com/DataServer?T=cia_w&amp;" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="9" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="msmapchina" isfake="true" name="微软地图" descr="" baseurl="http://r0.tiles.ditu.live.com/tiles/r" IMAGE_FILENAMEENDING=".png?g=1" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0" /> 
+	<map id="msmapearth" isfake="false" name="微软卫星图" descr="" baseurl="http://a0.ortho.tiles.virtualearth.net/tiles/a" IMAGE_FILENAMEENDING=".jpg?g=45" ZOOM_MINLEVEL="1" ZOOM_MAXLEVEL="19" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="6" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0" /> 
+	<map id="opencyclemap" isfake="false" name="OpencycleMap" descr="" baseurl="http://a.tile.opencyclemap.org/cycle/" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="8" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0" />
+    <map id="opencyclemap2" isfake="false" name="OpencycleMap(landscape)" descr="" baseurl="http://a.tile3.opencyclemap.org/landscape/" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="8" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0" />
+    <map id="opencyclemap3" isfake="false" name="OpencycleMap Public Transport" descr="" baseurl="http://tile.memomaps.de/tilegen/" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="8" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0" />
+	<map id="qqmap3_hd" isfake="true" name="腾讯地图(高清)" descr="" baseurl="http://p2.map.gtimg.com/hwaptiles/" IMAGE_FILENAMEENDING="png" ZOOM_MINLEVEL="4" ZOOM_MAXLEVEL="17" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="13" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="bdmap2" isfake="false" name="百度地图" descr="" baseurl="" IMAGE_FILENAMEENDING="png" ZOOM_MINLEVEL="4" ZOOM_MAXLEVEL="17" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="17" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="qqmap2weixing_" isfake="true" name="腾讯卫星图" descr="" baseurl="http://p1.map.gtimg.com/sateTiles/" IMAGE_FILENAMEENDING="jpg" ZOOM_MINLEVEL="2" ZOOM_MAXLEVEL="17" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="14" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	
+	<map id="googlemap" isfake="true" name="谷歌地图" descr="" baseurl="http://mt0.google.cn/vt/lyrs=m@207397449&amp;hl=zh-CN&amp;gl=cn&amp;src=app&amp;" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="20" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="1" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="qqmap3" isfake="true" name="腾讯地图" descr="" baseurl="http://p2.map.gtimg.com/maptilesv3/" IMAGE_FILENAMEENDING="png" ZOOM_MINLEVEL="4" ZOOM_MAXLEVEL="17" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="7" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="sgmap" isfake="false" name="搜狗地图" descr="" baseurl="" IMAGE_FILENAMEENDING=".png" ZOOM_MINLEVEL="3" ZOOM_MAXLEVEL="18" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="3" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="mapabc" isfake="true" name="MapABC地图" descr="" baseurl="http://emap0.is.autonavi.com/appmaptile?&amp;" IMAGE_FILENAMEENDING=".gif" ZOOM_MINLEVEL="3" ZOOM_MAXLEVEL="17" MAPTILE_SIZEPX="512" URL_BUILDER_TYPE="1" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	
+	<map id="googledixing" isfake="false" name="谷歌地形图" descr="" baseurl="http://mt1.google.cn/vt/lyrs=t@{version},r@&amp;hl=zh-CN&amp;src=app&amp;" IMAGE_FILENAMEENDING=".jpg" ZOOM_MINLEVEL="0" ZOOM_MAXLEVEL="20" MAPTILE_SIZEPX="256" URL_BUILDER_TYPE="1" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	<map id="mapabc" isfake="true" name="MapABC地图" descr="" baseurl="http://emap0.is.autonavi.com/appmaptile?&amp;" IMAGE_FILENAMEENDING=".gif" ZOOM_MINLEVEL="3" ZOOM_MAXLEVEL="17" MAPTILE_SIZEPX="512" URL_BUILDER_TYPE="1" TILE_SOURCE_TYPE="0" PROJECTION="1" YANDEX_TRAFFIC_ON="0"></map>
+	-->
+</root>

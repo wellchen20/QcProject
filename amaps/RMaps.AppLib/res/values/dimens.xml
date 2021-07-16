@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_list_item_min_heght">40dp</dimen>
+    
+    <dimen name="text_padding_title">16dp</dimen>
+    <dimen name="text_padding_menu">8dp</dimen>
+    
+    <dimen name="layout_padding">4dp</dimen>
+    <dimen name="layout_padding_middle">8dp</dimen>
+    <dimen name="layout_padding_big">16dp</dimen>
+    
+    <dimen name="top_view_min_heght">50dp</dimen>
+    <dimen name="btn_item_min_heght">32dp</dimen>
+    <dimen name="text_item_min_heght">24dp</dimen>
+    
+    <dimen name="big">20sp</dimen>
+    <dimen name="mid">18sp</dimen>
+    <dimen name="smal">16sp</dimen>
+    <dimen name="smal2">14sp</dimen>
+    <dimen name="smal3">12sp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="local_cell_pandding">5dp</dimen>
+
+    <dimen name="sp13">13sp</dimen>
+
+
+
+
+<!-- 小鱼-->
+    <dimen name="dtmf_text_size">21sp</dimen>
+    <dimen name="dtmf_key_size">18sp</dimen>
+    <!--call dimen-->
+    <dimen name="call_font_size">10sp</dimen>
+    <dimen name="call_more_size">15sp</dimen>
+    <dimen name="call_line_width">90dp</dimen>
+
+
+    <dimen name="notification_text_size">11sp</dimen>
+    <dimen name="notification_padding_size">6dp</dimen>
+    <dimen name="notification_top_size">2dp</dimen>
+
+    <dimen name="face_view_name_big">18sp</dimen>
+    <dimen name="face_view_position_big">14sp</dimen>
+    <dimen name="face_view_name_small">15sp</dimen>
+    <dimen name="face_view_position_small">11sp</dimen>
+</resources>

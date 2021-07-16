@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.9" >
+
+        <LinearLayout
+            android:id="@+id/ll_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_press_pop"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/tv_photo_graph"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="相机"
+                android:background="@drawable/btn_press_pop"
+                android:textColor="#2DB6ED"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.5"
+                android:background="#CBCED2" />
+
+            <TextView
+                android:id="@+id/tv_photo_local"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_press_pop"
+                android:gravity="center"
+                android:text="相册"
+                android:textColor="#2DB6ED"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/ll_exit"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_press_pop"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#707070"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_cancle"
+            android:layout_marginTop="5dp" />
+        
+    </RelativeLayout>
+    
+</RelativeLayout>

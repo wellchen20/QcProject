@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/687/trunk/RMaps.AppLib/src/com/robert/maps/applib/trackwriter
+END
+IRemoteService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/539/trunk/RMaps.AppLib/src/com/robert/maps/applib/trackwriter/IRemoteService.aidl
+END
+ITrackWriterCallback.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/664/trunk/RMaps.AppLib/src/com/robert/maps/applib/trackwriter/ITrackWriterCallback.aidl
+END
+TrackWriterService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/687/trunk/RMaps.AppLib/src/com/robert/maps/applib/trackwriter/TrackWriterService.java
+END
+DatabaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/539/trunk/RMaps.AppLib/src/com/robert/maps/applib/trackwriter/DatabaseHelper.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/706/trunk/RMaps.AppLib/src/com/robert/maps/applib/data
+END
+GeoData.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/706/trunk/RMaps.AppLib/src/com/robert/maps/applib/data/GeoData.java
+END
+SQLiteSDOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/706/trunk/RMaps.AppLib/src/com/robert/maps/applib/data/SQLiteSDOpenHelper.java
+END
+GeoDataDatabaseOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/706/trunk/RMaps.AppLib/src/com/robert/maps/applib/data/GeoDataDatabaseOpenHelper.java
+END

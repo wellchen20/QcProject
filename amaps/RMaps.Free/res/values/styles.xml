@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="text_menu">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:padding">@dimen/layout_padding</item>
+    </style>
+    
+    <style name="text_content">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <style name="splite_line_v_gray">
+        <item name="android:background">@color/light_gray</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+    <style name="text_fuction_menu">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">@dimen/text_padding_title</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/bk_vg</item>
+        <item name="android:minHeight">@dimen/menu_list_item_min_heght</item>
+    </style>
+    
+    <style name="splite_line_h_gray">
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    
+     <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/smal</item>
+        <item name="android:textColor">@color/host_bottom_text</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item> -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item> -->
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+     <style name="text_button">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+     <!-- 相册弹出框 -->
+     <style name="app_pop">
+        <item name="android:windowEnterAnimation">@anim/pop_up</item>
+        <item name="android:windowExitAnimation">@anim/pop_down</item>
+    </style>
+</resources>

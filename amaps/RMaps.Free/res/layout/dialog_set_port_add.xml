@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding_big" >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/text_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_padding_menu"
+        android:text="@string/server_port_setting" />
+
+    <EditText
+        android:id="@+id/name"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/server_port_input" />
+
+</LinearLayout>

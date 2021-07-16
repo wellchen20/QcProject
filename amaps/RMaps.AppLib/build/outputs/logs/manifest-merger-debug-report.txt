@@ -1,0 +1,281 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:2:1-117:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:2:1-117:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:2:1-117:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:2:1-117:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:2:1-117:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:2:1-117:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:2:1-117:12
+	package
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:3:5-37
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml
+	android:sharedUserLabel
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:6:5-53
+	android:sharedUserId
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:5:5-47
+	android:versionName
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:8:5-32
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:7:5-28
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml
+	android:installLocation
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:4:5-35
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:15:22-76
+uses-feature#android.hardware.location
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:16:5-87
+	android:required
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:16:60-84
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:16:19-59
+uses-feature#android.hardware.location.gps
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:17:5-91
+	android:required
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:17:64-88
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:17:19-63
+uses-feature#android.hardware.location.network
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:18:5-95
+	android:required
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:18:68-92
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:18:19-67
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:19:22-75
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:20:5-83
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:20:22-80
+application
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:23:5-103:19
+	android:label
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:27:9-41
+	android:allowClearUserData
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:25:9-43
+	android:icon
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:26:9-43
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:24:9-39
+activity#com.xylink.sdk.sample.HomeActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:28:9-30:20
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:29:13-44
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:28:19-68
+activity#com.xylink.sdk.sample.FeedbackActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:31:9-32:56
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:32:13-44
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:31:19-72
+activity#com.xylink.sdk.sample.CallActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:33:9-36:89
+	android:launchMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:35:13-44
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:34:13-59
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:36:13-77
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:33:19-68
+activity#com.xylink.sdk.sample.LoginActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:37:9-38:56
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:37:19-69
+activity#com.xylink.sdk.sample.MainActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:39:9-40:56
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:40:13-44
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:39:19-68
+service#com.xylink.sdk.sample.IncomingCallService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:42:9-77
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:42:18-74
+activity#com.robert.maps.applib.MainPreferences
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:43:9-44:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:43:19-72
+activity#com.robert.maps.applib.kml.PoiActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:47:9-75
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:47:19-72
+activity#com.robert.maps.applib.kml.PoiListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:48:9-79
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:48:19-76
+activity#com.robert.maps.applib.kml.TrackListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:49:9-81
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:49:19-78
+activity#com.robert.maps.applib.kml.PoiCategoryActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:50:9-51:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:50:19-80
+activity#com.robert.maps.applib.kml.PoiCategoryListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:52:9-53:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:52:19-84
+activity#com.robert.maps.applib.kml.PoiIconSetActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:54:9-55:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:54:19-79
+activity#com.robert.maps.applib.kml.ImportPoiActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:56:9-81
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:56:19-78
+activity#com.robert.maps.applib.kml.ImportTrackActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:57:9-58:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:57:19-80
+activity#com.robert.maps.applib.kml.TrackActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:59:9-60:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:59:19-74
+activity#com.robert.maps.applib.kml.TrackStatActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:61:9-62:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:61:19-78
+activity#com.robert.maps.applib.kml.RouteListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:63:9-64:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:63:19-78
+service#com.robert.maps.applib.trackwriter.TrackWriterService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:66:9-74:19
+	android:process
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:69:13-43
+	android:icon
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:68:13-58
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:67:13-81
+intent-filter#action:name:com.robert.maps.trackwriter+action:name:com.robert.maps.trackwriter.IRemoteService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:70:13-73:29
+action#com.robert.maps.trackwriter
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:71:17-70
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:71:25-67
+action#com.robert.maps.trackwriter.IRemoteService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:72:17-85
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:72:25-82
+activity#org.openintents.filemanager.FileManagerActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:76:9-77:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:76:19-81
+activity#com.robert.maps.applib.downloader.AreaSelectorActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:78:9-81:20
+	android:launchMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:80:13-48
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:79:13-82
+service#com.robert.maps.applib.downloader.MapDownloaderService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:83:9-91:19
+	android:process
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:86:13-45
+	android:icon
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:85:13-58
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:84:13-82
+intent-filter#action:name:com.robert.maps.downloader.IRemoteService+action:name:com.robert.maps.mapdownloader
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:87:13-90:29
+action#com.robert.maps.mapdownloader
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:88:17-72
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:88:25-69
+action#com.robert.maps.downloader.IRemoteService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:89:17-84
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:89:25-81
+activity#com.robert.maps.applib.downloader.DownloaderActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:94:9-95:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:94:19-64
+activity#com.robert.maps.applib.preference.MixedMapsPreference
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:95:20-96:20
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:95:30-76
+activity#com.robert.maps.applib.preference.UserMapsPrefActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:97:9-78
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:97:19-66
+activity#com.robert.maps.applib.preference.PredefMapsPrefActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:98:9-80
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:98:19-68
+activity#com.robert.maps.applib.preference.CustomMapsPrefActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:99:9-80
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:99:19-68
+activity#com.robert.maps.applib.preference.PairMapsPrefActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:100:9-78
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:100:19-66
+activity#com.robert.maps.applib.downloader.FileDownloadListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:101:9-82
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:101:19-70
+activity#com.robert.maps.applib.geoui.GeoDataActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:102:9-68
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:102:19-56
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:105:5-68
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:105:22-65
+uses-sdk
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:107:5-47
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:107:5-47
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:107:5-47
+	android:targetSdkVersion
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:107:15-44
+	android:minSdkVersion
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:107:5-47
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml
+supports-screens
+ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:109:5-115:39
+	android:largeScreens
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:111:9-36
+	android:smallScreens
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:115:9-36
+	android:normalScreens
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:112:9-37
+	android:xlargeScreens
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:113:9-37
+	android:resizeable
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:114:9-34
+	android:anyDensity
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.AppLib\AndroidManifest.xml:110:9-34

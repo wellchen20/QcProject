@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/708/trunk/RMaps.AppLib/src/org/andnav/osm/views/util
+END
+StreamUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/534/trunk/RMaps.AppLib/src/org/andnav/osm/views/util/StreamUtils.java
+END
+Mercator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/534/trunk/RMaps.AppLib/src/org/andnav/osm/views/util/Mercator.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/539/trunk/RMaps.AppLib/src/org/andnav/osm/views/util/Util.java
+END

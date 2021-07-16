@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/708/trunk/RMaps.AppLib/src/org/andnav/osm/views/util/constants
+END
+MathConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/534/trunk/RMaps.AppLib/src/org/andnav/osm/views/util/constants/MathConstants.java
+END
+OpenStreetMapViewConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/708/trunk/RMaps.AppLib/src/org/andnav/osm/views/util/constants/OpenStreetMapViewConstants.java
+END

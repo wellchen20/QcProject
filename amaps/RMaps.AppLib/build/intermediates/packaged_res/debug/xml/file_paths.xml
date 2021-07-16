@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="external_files" path="."/>
+    <!-- 
+    <external-path name="arrange_task" path="tencent/MicroMsg/Download" ></external-path>
+    <external-path name="rmaps" path="rmaps"></external-path>
+    <external-path name="rmaps_maps" path="rmaps/maps"></external-path>
+    <external-path name="my_images" path="rmaps/MyImg" ></external-path>
+    <external-path name="rmaps_public" path="rmaps/project/public"></external-path>
+    <external-path name="rmaps_points_input" path="rmaps/project/private/points/input"></external-path>
+    <external-path name="rmaps_points_output" path="rmaps/project/private/points/output"></external-path>
+    <external-path name="rmaps_tasks_input" path="rmaps/project/private/tasks/input"></external-path>
+    <external-path name="rmaps_tasks_output" path="rmaps/project/private/tasks/output"></external-path>
+    <external-path name="rmaps_tracks_input" path="rmaps/project/private/tracks/input"></external-path>
+    <external-path name="rmaps_tracks_output" path="rmaps/project/private/tracks/output"></external-path>
+    --> 
+</paths>
+

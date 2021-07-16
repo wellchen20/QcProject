@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="task_type_names">
+        <item>井炮源驱</item>
+    </string-array>
+    
+    <string-array name="zhuanghao_roule">
+        <item>线号不变-点号增长</item>
+        <item>线号不变-点号减小</item>
+        <item>线号增长-点号不变</item>
+        <item>线号减小-点号不变</item>
+        <item>线号增长-点号增长</item>
+        <item>线号增长-点号减小</item>
+        <item>线号减小-点号增长</item>
+        <item>线号减小-点号减小</item>
+    </string-array>
+    
+    <string-array name="zhuanghao_roule_mode">
+        <item>点号模式-大号</item>
+        <item>点号模式-小号</item>
+        <item>线号模式-大号</item>
+        <item>线号模式-小号</item>
+    </string-array>
+    
+    <string-array name="zhuanghao_roule_mode1">
+        <item>点号模式</item>
+        <item>线号模式</item>
+    </string-array>
+    
+    <string-array name="zhuanghao_roule_mode2">
+        <item>大号</item>
+        <item>小号</item>
+    </string-array>
+    
+    <string-array name="bzj_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+    </string-array>
+    
+    <string-array name="nav_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    
+    <string-array name="zzjg_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    
+    <integer-array name="pipei_distance">
+        <item>20</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+    </integer-array>
+    
+    <integer-array name="safe_distance">
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </integer-array>
+    
+    <string-array name="send_location_time">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+    
+    <string-array name="user_time">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

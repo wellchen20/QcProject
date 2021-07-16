@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- 参考Seekbar -->  
+    <declare-styleable name="windows">  
+  
+        <!-- 背景颜色 -->  
+        <attr name="background_c" format="color" />
+        <!-- 进度颜色 -->  
+        <attr name="progressDrawable" format="color" />  
+        <!-- 宽度 -->  
+        <attr name="layout_width" format="dimension" />  
+        <!-- 字体颜色 -->  
+        <attr name="textColor" format="color" />  
+        <!-- 字体大小 -->  
+        <attr name="textSize" format="dimension" />  
+        <!-- 最大进度 -->  
+        <attr name="max" format="integer" />  
+        <!-- 进度 -->  
+        <attr name="progress" format="integer" />
+        <!-- 进度点 -->  
+        <attr name="thumb" format="reference" />  
+        <!-- 进度点宽高 -->  
+        <attr name="thumbSize" format="integer" />  
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="buttonColor" format="color" />
+    </declare-styleable>
+</resources>
+

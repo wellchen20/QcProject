@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_press_pop"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_search_people"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/search_people"
+                android:background="@drawable/btn_press_pop"
+                android:textColor="#2DB6ED"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.5"
+                android:background="#CBCED2" />
+
+            <TextView
+                android:id="@+id/tv_search_detection"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+            	android:paddingRight="10dp"
+            	android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/search_detection"
+                android:background="@drawable/btn_press_pop"
+                android:textColor="#2DB6ED"
+                android:textSize="18sp" />
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.5"
+                android:background="#CBCED2" />
+
+            <TextView
+                android:id="@+id/tv_search_shot"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+            	android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/search_shot"
+                android:background="@drawable/btn_press_pop"
+                android:textColor="#2DB6ED"
+                android:textSize="18sp" />
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.5"
+                android:visibility="gone"
+                android:background="#CBCED2" />
+
+            <TextView
+                android:id="@+id/tv_search_interest"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+            	android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="@string/search_interest"
+                android:background="@drawable/btn_press_pop"
+                android:textColor="#2DB6ED"
+                android:textSize="18sp" />
+        </LinearLayout>
+    
+
+</LinearLayout>

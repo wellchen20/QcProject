@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/706/trunk/RMaps.AppLib/src/com/commonsware/cwac/loaderex/acl
+END
+SharedPreferencesLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/706/trunk/RMaps.AppLib/src/com/commonsware/cwac/loaderex/acl/SharedPreferencesLoader.java
+END
+SQLiteCursorLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/706/trunk/RMaps.AppLib/src/com/commonsware/cwac/loaderex/acl/SQLiteCursorLoader.java
+END
+AbstractCursorLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/706/trunk/RMaps.AppLib/src/com/commonsware/cwac/loaderex/acl/AbstractCursorLoader.java
+END
+ContentChangingTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/706/trunk/RMaps.AppLib/src/com/commonsware/cwac/loaderex/acl/ContentChangingTask.java
+END

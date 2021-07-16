@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/688/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader
+END
+FileDownloadListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/652/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader/FileDownloadListActivity.java
+END
+FileDownloadListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/613/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader/FileDownloadListAdapter.java
+END
+AreaSelectorActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/668/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader/AreaSelectorActivity.java
+END
+DownloaderActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/687/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader/DownloaderActivity.java
+END
+AreaSelectorOverlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/611/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader/AreaSelectorOverlay.java
+END
+DownloadedAreaOverlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/653/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader/DownloadedAreaOverlay.java
+END
+IDownloaderCallback.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/539/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader/IDownloaderCallback.aidl
+END
+IRemoteService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/539/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader/IRemoteService.aidl
+END
+MapDownloaderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/688/trunk/RMaps.AppLib/src/com/robert/maps/applib/downloader/MapDownloaderService.java
+END

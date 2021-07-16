@@ -1,0 +1,1021 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:2:1-413:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:2:1-413:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:2:1-413:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:2:1-413:12
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-130:12
+MERGED from [:sliding_menu_lib:] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\004349eeda919aec195b3dd1f3aba9e1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\0f2e60c6cd332be33c9570a0921b3f48\AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\4c5900c087124d2a2909bf1d795e591a\AndroidManifest.xml:2:1-8:12
+MERGED from [com.github.zzz40500:android-shapeLoadingView:1.0.3.2] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cb152aeb27a0a80ced6546686db94f77\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\ed311eceb2f03b3afd03b77b5381f72d\AndroidManifest.xml:15:1-21:12
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\bb01d96aa1ff115ad6e24ac795249141\AndroidManifest.xml:15:1-21:12
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cbc770b1afc05ff6f41b645e4536543d\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\e5d9b016d028c0037399dc5ea4179da2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\4e55b03585a55cf3a599b55c30e3ed20\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\671d12509b1fe5d7857d319f6f0d3f8c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\6be902625fdaf131f82291111c29490d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\c0be945bfcbae27c01ab34b04f93661b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cb0151024bc60204c2a705b238048b73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\c039e02b54773fdc5fa97853e0fa62a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\70c9f95a21a31b41be8bdd97215b0855\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\01864c519f24c0344d41fa3ff936b6a7\AndroidManifest.xml:17:1-30:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:2:1-413:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:2:1-413:12
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:2:1-413:12
+	package
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:3:5-28
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+	android:sharedUserLabel
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:6:5-53
+	android:sharedUserId
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:5:5-47
+	android:versionName
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:8:5-32
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:7:5-31
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+	android:installLocation
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:4:5-35
+uses-sdk
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:10:5-47
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:10:5-47
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:10:5-47
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-12:41
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-12:41
+MERGED from [:sliding_menu_lib:] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\004349eeda919aec195b3dd1f3aba9e1\AndroidManifest.xml:7:5-9:41
+MERGED from [:sliding_menu_lib:] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\004349eeda919aec195b3dd1f3aba9e1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\0f2e60c6cd332be33c9570a0921b3f48\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\0f2e60c6cd332be33c9570a0921b3f48\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.zzz40500:android-shapeLoadingView:1.0.3.2] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cb152aeb27a0a80ced6546686db94f77\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.zzz40500:android-shapeLoadingView:1.0.3.2] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cb152aeb27a0a80ced6546686db94f77\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\ed311eceb2f03b3afd03b77b5381f72d\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\ed311eceb2f03b3afd03b77b5381f72d\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\bb01d96aa1ff115ad6e24ac795249141\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\bb01d96aa1ff115ad6e24ac795249141\AndroidManifest.xml:19:5-43
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cbc770b1afc05ff6f41b645e4536543d\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cbc770b1afc05ff6f41b645e4536543d\AndroidManifest.xml:7:5-8:41
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\e5d9b016d028c0037399dc5ea4179da2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\e5d9b016d028c0037399dc5ea4179da2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\4e55b03585a55cf3a599b55c30e3ed20\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\4e55b03585a55cf3a599b55c30e3ed20\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\671d12509b1fe5d7857d319f6f0d3f8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\671d12509b1fe5d7857d319f6f0d3f8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\6be902625fdaf131f82291111c29490d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\6be902625fdaf131f82291111c29490d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\c0be945bfcbae27c01ab34b04f93661b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\c0be945bfcbae27c01ab34b04f93661b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cb0151024bc60204c2a705b238048b73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cb0151024bc60204c2a705b238048b73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\c039e02b54773fdc5fa97853e0fa62a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\c039e02b54773fdc5fa97853e0fa62a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\70c9f95a21a31b41be8bdd97215b0855\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\70c9f95a21a31b41be8bdd97215b0855\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\01864c519f24c0344d41fa3ff936b6a7\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\01864c519f24c0344d41fa3ff936b6a7\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:10:5-47
+INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:10:5-47
+	android:targetSdkVersion
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:10:15-44
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:10:5-47
+		MERGED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:10:5-47
+		INJECTED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:12:5-67
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-67
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:13:5-79
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-79
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:14:5-81
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-81
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:15:5-81
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-81
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:17:22-68
+uses-permission#android.permission.CAMERA
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:18:22-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:19:5-68
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-68
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:19:22-65
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:20:5-84
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:20:22-65
+uses-feature#android.hardware.autofocus
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:22:5-63
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:22:19-60
+uses-feature#android.hardware.camera
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:23:5-60
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:23:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:24:5-70
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:24:19-67
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:26:5-78
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-78
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-78
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:26:22-75
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:27:5-83
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-83
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-83
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:27:22-80
+uses-feature#android.hardware.location
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:29:5-31:36
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-23:36
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:30:9-49
+uses-feature#android.hardware.location.gps
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:32:5-34:36
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:36
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:33:9-53
+uses-feature#android.hardware.location.network
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:35:5-37:36
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-29:36
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:36:9-57
+supports-screens
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:39:5-45:40
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-41:40
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-41:40
+	android:largeScreens
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:41:9-36
+	android:smallScreens
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:44:9-36
+	android:normalScreens
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:42:9-37
+	android:xlargeScreens
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:45:9-37
+	android:resizeable
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:43:9-34
+	android:anyDensity
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:40:9-34
+uses-permission#android.permission.READ_PROFILE
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:47:5-71
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:47:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:48:5-72
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:48:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:49:5-80
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:49:22-77
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:50:5-72
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:50:22-69
+application
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:52:5-411:19
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:5-128:19
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:5-128:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\0f2e60c6cd332be33c9570a0921b3f48\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\0f2e60c6cd332be33c9570a0921b3f48\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\4c5900c087124d2a2909bf1d795e591a\AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\4c5900c087124d2a2909bf1d795e591a\AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cbc770b1afc05ff6f41b645e4536543d\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\cbc770b1afc05ff6f41b645e4536543d\AndroidManifest.xml:10:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\01864c519f24c0344d41fa3ff936b6a7\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\01864c519f24c0344d41fa3ff936b6a7\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:57:9-41
+	android:allowClearUserData
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:55:9-43
+	android:icon
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:56:9-43
+	android:allowBackup
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:54:9-35
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:58:9-68
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:53:9-61
+activity#com.mtkj.cnpc.activity.VideoActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:59:9-69
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:59:19-57
+activity#com.mtkj.cnpc.activity.SeeCheckActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:60:9-63
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:60:19-60
+activity#com.mtkj.cnpc.activity.SplashActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:61:9-69:20
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:63:13-83
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:62:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:64:13-68:29
+action#android.intent.action.MAIN
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:65:17-69
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:65:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:67:17-77
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:67:27-74
+activity#com.mtkj.cnpc.activity.MainActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:70:9-100:20
+	android:screenOrientation
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:73:13-45
+	android:launchMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:74:13-48
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:72:13-74
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:76:13-83
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:71:13-50
+intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:77:13-81:29
+action#android.intent.action.SEARCH
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:78:17-71
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:78:25-68
+category#android.intent.category.DEFAULT
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:80:17-76
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:80:27-73
+meta-data#android.app.searchable
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:83:13-85:54
+	android:resource
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:85:17-51
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:84:17-54
+intent-filter#action:name:com.robert.maps.action.SHOW_POINTS+category:name:android.intent.category.DEFAULT
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:87:13-91:29
+action#com.robert.maps.action.SHOW_POINTS
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:88:17-77
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:88:25-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:geo
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:92:13-99:29
+action#android.intent.action.VIEW
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:93:17-69
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:93:25-66
+category#android.intent.category.BROWSABLE
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:96:17-78
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:96:27-75
+data
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:98:17-46
+	android:scheme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:98:23-43
+activity#com.mtkj.cnpc.activity.DrillRecognizeActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:101:9-78
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:101:19-66
+activity#com.mtkj.cnpc.activity.VideoListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:102:9-73
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:102:19-61
+activity#com.robert.maps.applib.MainPreferences
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:103:9-106:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:9-71:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:9-71:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:106:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:105:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:104:13-66
+provider#android.support.v4.content.FileProvider
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:108:9-116:20
+	android:grantUriPermissions
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:112:13-47
+	android:authorities
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:110:13-61
+	android:exported
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:111:13-37
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:109:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:113:13-115:54
+	android:resource
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:115:17-51
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:114:17-67
+activity#com.robert.maps.applib.kml.PoiActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:118:9-121:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-75
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-75
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:121:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:120:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:119:13-66
+activity#com.robert.maps.applib.kml.PoiListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:122:9-125:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:9-79
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:9-79
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:125:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:124:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:123:13-70
+activity#com.robert.maps.applib.kml.TrackListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:126:9-129:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:9-81
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:9-81
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:129:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:128:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:127:13-72
+activity#com.robert.maps.applib.kml.PoiCategoryActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:130:9-133:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:9-76:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:9-76:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:133:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:132:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:131:13-74
+activity#com.robert.maps.applib.kml.PoiCategoryListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:134:9-137:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:9-78:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:9-78:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:137:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:136:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:135:13-78
+activity#com.robert.maps.applib.kml.PoiIconSetActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:138:9-141:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:9-80:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:9-80:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:141:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:140:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:139:13-73
+activity#com.robert.maps.applib.kml.ImportPoiActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:142:9-145:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:9-81
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:9-81
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:145:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:144:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:143:13-72
+activity#com.robert.maps.applib.kml.ImportTrackActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:146:9-149:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:9-83:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:9-83:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:149:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:148:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:147:13-74
+activity#com.robert.maps.applib.kml.TrackActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:150:9-153:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:9-85:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:9-85:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:153:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:152:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:151:13-68
+activity#com.robert.maps.applib.kml.TrackStatActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:154:9-157:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:9-87:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:9-87:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:157:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:156:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:155:13-72
+activity#com.robert.maps.applib.kml.RouteListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:158:9-161:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:9-89:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:9-89:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:161:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:160:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:159:13-72
+activity#com.robert.maps.applib.kml.OutmapActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:162:9-165:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:165:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:164:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:163:13-69
+service#com.robert.maps.applib.trackwriter.TrackWriterService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:167:9-175:19
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:9-99:19
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:9-99:19
+	android:process
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:170:13-43
+	android:icon
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:169:13-58
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:168:13-81
+intent-filter#action:name:com.robert.maps.applib.trackwriter.IRemoteService+action:name:com.robert.maps.trackwriter
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:171:13-174:29
+action#com.robert.maps.trackwriter
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:172:17-70
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:172:25-67
+action#com.robert.maps.applib.trackwriter.IRemoteService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:173:17-92
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:173:25-89
+activity#org.openintents.filemanager.FileManagerActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:177:9-180:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:9-102:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:9-102:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:180:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:179:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:178:13-75
+activity#com.robert.maps.applib.downloader.AreaSelectorActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:181:9-185:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:9-106:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:9-106:20
+	android:launchMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:184:13-48
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:185:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:183:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:182:13-82
+service#com.robert.maps.applib.downloader.MapDownloaderService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:187:9-195:19
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:9-116:19
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:9-116:19
+	android:process
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:190:13-45
+	android:icon
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:189:13-58
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:188:13-82
+intent-filter#action:name:com.robert.maps.applib.downloader.IRemoteService+action:name:com.robert.maps.mapdownloader
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:191:13-194:29
+action#com.robert.maps.mapdownloader
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:192:17-72
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:192:25-69
+action#com.robert.maps.applib.downloader.IRemoteService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:193:17-91
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:193:25-88
+activity#com.robert.maps.applib.downloader.DownloaderActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:197:9-200:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:118:9-119:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:118:9-119:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:200:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:199:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:198:13-80
+activity#com.robert.maps.applib.preference.MixedMapsPreference
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:201:9-204:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:9-121:20
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:9-121:20
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:204:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:203:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:202:13-81
+activity#com.robert.maps.applib.preference.PredefMapsPrefActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:205:9-208:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:9-93
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:9-93
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:208:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:207:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:206:13-84
+activity#com.robert.maps.applib.preference.UserMapsPrefActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:209:9-212:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:9-91
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:9-91
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:212:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:211:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:210:13-82
+activity#com.robert.maps.applib.preference.CustomMapsPrefActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:213:9-216:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:9-93
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:9-93
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:216:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:215:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:214:13-84
+activity#com.robert.maps.applib.preference.PairMapsPrefActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:217:9-220:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:9-91
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:9-91
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:220:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:219:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:218:13-82
+activity#com.robert.maps.applib.preference.OffsetActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:221:9-225:70
+	android:hardwareAccelerated
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:224:13-48
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:225:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:223:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:222:13-76
+activity#com.robert.maps.applib.downloader.FileDownloadListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:226:9-229:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:9-95
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:9-95
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:229:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:228:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:227:13-86
+activity#com.robert.maps.applib.geoui.GeoDataActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:230:9-233:70
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:9-81
+MERGED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:9-81
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:233:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:232:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:231:13-72
+receiver#com.mtkj.cnpc.broadcast.OpenMapBroadcast
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:235:9-241:20
+	android:exported
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:237:13-37
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:236:13-55
+intent-filter#action:name:SHOW_MAP_ID
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:238:13-240:29
+action#SHOW_MAP_ID
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:239:17-54
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:239:25-51
+activity#com.cnpc.amap.search.PoiKeywordSearchActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:243:9-247:70
+	android:screenOrientation
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:246:13-49
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:247:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:245:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:244:13-73
+activity#com.mtkj.cnpc.activity.RecordActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:248:9-251:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:251:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:250:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:249:13-52
+activity#com.mtkj.cnpc.activity.FeedActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:252:9-255:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:255:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:254:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:253:13-50
+activity#com.mtkj.cnpc.activity.AddActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:256:9-259:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:259:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:258:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:257:13-49
+activity#com.mtkj.cnpc.activity.SeeRecordActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:260:9-263:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:263:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:262:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:261:13-55
+activity#com.mtkj.cnpc.activity.TaskActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:264:9-267:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:267:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:266:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:265:13-50
+activity#com.mtkj.cnpc.activity.ImportTaskActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:268:9-271:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:271:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:270:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:269:13-56
+activity#com.mtkj.cnpc.activity.ImportArrangetTaskActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:272:9-275:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:275:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:274:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:273:13-64
+activity#com.mtkj.cnpc.activity.WorkTypeChoose
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:276:9-279:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:279:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:278:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:277:13-52
+activity#com.mtkj.cnpc.activity.LoginActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:280:9-283:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:283:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:282:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:281:13-51
+activity#com.mtkj.cnpc.activity.ServerSettingActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:284:9-287:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:287:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:286:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:285:13-59
+activity#com.mtkj.cnpc.activity.MyActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:288:9-291:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:291:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:290:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:289:13-48
+activity#com.mtkj.utils.zxing.camera.MipcaActivityCapture
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:292:9-294:77
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:294:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:293:13-76
+activity#com.mtkj.cnpc.activity.MenuActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:295:9-299:47
+	android:launchMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:299:13-44
+	android:hardwareAccelerated
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:298:13-48
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:297:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:296:13-50
+activity#com.mtkj.cnpc.activity.TaskSettingActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:300:9-303:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:303:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:302:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:301:13-57
+activity#com.mtkj.cnpc.activity.NewsActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:304:9-307:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:307:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:306:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:305:13-50
+activity#com.mtkj.cnpc.activity.MapManagerActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:308:9-311:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:311:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:310:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:309:13-56
+activity#com.mtkj.cnpc.activity.ProjectManagerActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:312:9-315:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:315:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:314:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:313:13-60
+activity#com.mtkj.cnpc.activity.StartOffActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:316:9-319:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:319:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:318:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:317:13-54
+activity#com.mtkj.cnpc.activity.ArrivedAtActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:320:9-323:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:323:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:322:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:321:13-55
+activity#com.mtkj.cnpc.activity.GetBackActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:324:9-327:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:327:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:326:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:325:13-53
+activity#com.mtkj.cnpc.activity.EndOffActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:328:9-331:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:331:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:330:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:329:13-52
+activity#com.mtkj.cnpc.activity.CarkeyGetActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:332:9-335:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:335:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:334:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:333:13-55
+activity#com.mtkj.cnpc.activity.CarkeyBackActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:336:9-339:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:339:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:338:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:337:13-56
+activity#com.mtkj.cnpc.activity.SearchActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:340:9-343:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:343:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:342:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:341:13-52
+service#com.mtkj.cnpc.activity.service.SendService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:345:9-348:40
+	android:enabled
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:347:13-35
+	android:exported
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:348:13-37
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:346:13-57
+meta-data#com.amap.api.v2.apikey
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:360:9-362:64
+	android:value
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:362:13-61
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:361:13-50
+service#com.amap.api.location.APSService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:363:9-68
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:363:18-65
+meta-data#com.baidu.speech.APP_ID
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:365:9-367:40
+	android:value
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:367:13-37
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:366:13-51
+meta-data#com.baidu.speech.API_KEY
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:368:9-370:56
+	android:value
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:370:13-53
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:369:13-52
+meta-data#com.baidu.speech.SECRET_KEY
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:371:9-373:64
+	android:value
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:373:13-61
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:372:13-55
+activity#com.mtkj.cnpc.activity.TaskListActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:374:9-376:47
+	android:launchMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:376:13-44
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:375:13-54
+activity#com.mtkj.cnpc.activity.TaskDetailsActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:377:9-66
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:377:19-63
+service#com.mtkj.cnpc.services.ConnService
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:379:9-382:40
+	android:enabled
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:381:13-35
+	android:exported
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:382:13-37
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:380:13-49
+activity#com.mtkj.cnpc.activity.TalkActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:384:9-386:47
+	android:launchMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:386:13-44
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:385:13-50
+activity#com.mtkj.cnpc.activity.TalkAllActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:387:9-389:47
+	android:launchMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:389:13-44
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:388:13-53
+activity#com.mtkj.cnpc.activity.RouteNaviActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:390:9-393:69
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:392:13-74
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:393:13-66
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:391:13-55
+activity#com.mtkj.cnpc.activity.DrillRecordActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:394:9-66
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:394:19-63
+activity#com.mtkj.cnpc.activity.SeeDrillActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:395:9-63
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:395:19-60
+activity#com.mtkj.cnpc.activity.MyCreditActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:396:9-63
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:396:19-60
+activity#com.mtkj.cnpc.activity.ReceiveTaskActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:397:9-400:70
+	android:windowSoftInputMode
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:400:13-67
+	android:configChanges
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:399:13-74
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:398:13-57
+activity#com.mtkj.cnpc.activity.TurnLargeActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:401:9-64
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:401:19-61
+activity#com.mtkj.cnpc.activity.ArrangeRecordActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:402:9-68
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:402:19-65
+activity#com.mtkj.cnpc.activity.SeeArrangeActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:403:9-65
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:403:19-62
+activity#com.mtkj.cnpc.activity.RemoveDrillActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:404:9-66
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:404:19-63
+activity#com.mtkj.cnpc.activity.RecognizeActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:405:9-407:47
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:407:13-44
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:406:13-55
+activity#detection.DetectorActivity
+ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:408:9-410:47
+	android:theme
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:410:13-44
+	android:name
+		ADDED from E:\QcProject\QcProject\amaps\RMaps.Free\AndroidManifest.xml:409:13-54
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-76
+activity#com.xylink.sdk.sample.HomeActivity
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:9-52:20
+	android:theme
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-62
+activity#com.xylink.sdk.sample.FeedbackActivity
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:9-55:47
+	android:theme
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-66
+activity#com.xylink.sdk.sample.CallActivity
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:9-60:80
+	android:launchMode
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-44
+	android:configChanges
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-59
+	android:theme
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-77
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-62
+activity#com.xylink.sdk.sample.LoginActivity
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:9-63:47
+	android:theme
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-63
+activity#com.xylink.sdk.sample.MainActivity
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:9-66:47
+	android:theme
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-44
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-62
+service#com.xylink.sdk.sample.IncomingCallService
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:9-77
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:18-74
+intent-filter#action:name:com.robert.maps.trackwriter+action:name:com.robert.maps.trackwriter.IRemoteService
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-98:29
+action#com.robert.maps.trackwriter.IRemoteService
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:17-85
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:25-82
+intent-filter#action:name:com.robert.maps.downloader.IRemoteService+action:name:com.robert.maps.mapdownloader
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:13-115:29
+action#com.robert.maps.downloader.IRemoteService
+ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:17-84
+	android:name
+		ADDED from [:RMaps.AppLib] E:\QcProject\QcProject\amaps\RMaps.AppLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:25-81
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\01864c519f24c0344d41fa3ff936b6a7\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\01864c519f24c0344d41fa3ff936b6a7\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\t480\.gradle\caches\transforms-2\files-2.1\01864c519f24c0344d41fa3ff936b6a7\AndroidManifest.xml:26:13-58

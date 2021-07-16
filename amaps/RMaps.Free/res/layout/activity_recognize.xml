@@ -1,0 +1,149 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/re_c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <SurfaceView
+        android:id="@+id/surfaceViwe"
+        android:keepScreenOn="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType ="textNoSuggestions">
+    </Spinner>
+
+    <LinearLayout
+        android:id="@+id/ll_record"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/iv_record"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/fade_record_icon"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/tv_record"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="00:12"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:background="@drawable/scan">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="5dp">
+                <TextView
+                    android:id="@+id/tv_cy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="检波器识别"
+                    android:textColor="#cdcdcd"
+                    android:gravity="right"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:id="@+id/iv_cy"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/wrong"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/tv_con"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="集线器识别"
+                    android:textColor="#cdcdcd"
+                    android:gravity="right"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:id="@+id/iv_con"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/wrong"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/tv_sur"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="桩号识别"
+                    android:textColor="#cdcdcd"
+                    android:gravity="right"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:id="@+id/iv_sur"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/wrong"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_gravity="right|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType ="textNoSuggestions">
+    </Spinner>
+
+    <org.tensorflow.demo.OverlayView
+        android:id="@+id/tracking_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <org.tensorflow.demo.OverlayView
+        android:id="@+id/debug_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#EE82EE"
+        android:id="@+id/showtile"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

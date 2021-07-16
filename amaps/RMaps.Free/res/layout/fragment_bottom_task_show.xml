@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="vertical"
+	    android:padding="@dimen/layout_padding_middle" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/txt_info"
+	            style="@style/text_menu"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:ellipsize="middle"
+	            android:gravity="center_vertical"
+	            android:singleLine="true" />
+	
+	        <TextView
+	            android:id="@+id/line_split_1"
+	            style="@style/splite_line_v_gray"
+	            android:layout_marginBottom="8dp"
+	            android:layout_marginTop="8dp" />
+	
+	        <LinearLayout
+	            android:id="@+id/txt_details"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/bk_vg"
+	            android:gravity="center"
+	            android:orientation="horizontal"
+	            android:padding="@dimen/layout_padding" >
+	
+	            <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/file" />
+	
+	            <TextView
+	                style="@style/text_content"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center_vertical"
+	                android:linksClickable="true"
+	                android:text="@string/show_details"
+	                android:textColor="@color/doder_blue" />
+	        </LinearLayout>
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/txt_info_two"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/layout_padding"
+	        android:background="@drawable/bk_btn_normal"
+	        android:minHeight="@dimen/btn_item_min_heght"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/btn_add_to_fav"
+	            style="@style/text_button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/bk_btn_vg_gray"
+	            android:text="收藏" />
+	
+	        <TextView
+	            android:id="@+id/line_split_2"
+	            style="@style/splite_line_v_gray"
+	            android:layout_marginBottom="8dp"
+	            android:layout_marginTop="8dp" />
+	
+	        <TextView
+	            android:id="@+id/btn_search_around"
+	            style="@style/text_button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/bk_btn_vg_gray"
+	            android:text="搜周边"
+	            android:visibility="gone" />
+	
+	        <TextView
+	            android:id="@+id/line_split_3"
+	            style="@style/splite_line_v_gray"
+	            android:layout_marginBottom="8dp"
+	            android:layout_marginTop="8dp"
+	            android:visibility="gone" />
+	
+	        <TextView
+	            android:id="@+id/btn_guide_to_this"
+	            style="@style/text_button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/bk_btn_vg_gray"
+	            android:text="到这去" />
+	    </LinearLayout>
+
+	</LinearLayout>
+
+</FrameLayout>

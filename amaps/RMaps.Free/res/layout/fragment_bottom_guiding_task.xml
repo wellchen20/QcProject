@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="vertical"
+	    android:padding="@dimen/layout_padding_middle" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="@dimen/text_item_min_heght"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/txt_info"
+	            style="@style/text_menu"
+	            android:ellipsize="middle"
+	            android:singleLine="true"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical" />
+	
+	        <TextView
+	            android:id="@+id/txt_info_remark"
+	            style="@style/text_content"
+	            android:paddingLeft="@dimen/layout_padding"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:gravity="center_vertical" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/txt_info_two"
+	            android:textColor="@color/black"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:gravity="center_vertical"
+	            android:linksClickable="true" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/layout_padding"
+	        android:background="@drawable/bk_btn_normal"
+	        android:minHeight="@dimen/btn_item_min_heght"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/btn_full_show_guide_way"
+	            style="@style/text_button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/bk_btn_vg_gray"
+	            android:text="全幅浏览" />
+	
+	        <TextView
+	            style="@style/splite_line_v_gray"
+	            android:layout_marginBottom="8dp"
+	            android:layout_marginTop="8dp" />
+	
+	        <TextView
+	            android:id="@+id/btn_stop_guiding"
+	            style="@style/text_button"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:background="@drawable/bk_btn_vg_gray"
+	            android:text="结束引导" />
+	    </LinearLayout>
+	
+	</LinearLayout>
+
+</FrameLayout>

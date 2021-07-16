@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/695/trunk/RMaps.AppLib/src/com/robert/maps/applib/view
+END
+MapView.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/695/trunk/RMaps.AppLib/src/com/robert/maps/applib/view/MapView.java
+END
+TileView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/672/trunk/RMaps.AppLib/src/com/robert/maps/applib/view/TileView.java
+END
+TileViewOverlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/633/trunk/RMaps.AppLib/src/com/robert/maps/applib/view/TileViewOverlay.java
+END
+IMoveListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/663/trunk/RMaps.AppLib/src/com/robert/maps/applib/view/IMoveListener.java
+END

@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/r_back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@id/pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/r_home_other1" >
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/title1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:layout_marginTop="4dip"
+                android:ellipsize="end"
+                android:text="@string/btn_start"
+                android:textAppearance="@style/title_red" />
+
+            <TextView
+                android:id="@id/title2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@android:id/text1"
+                android:layout_below="@android:id/text1"
+                android:layout_marginLeft="6dip"
+                android:text="@string/btn_stop"
+                android:textAppearance="@style/title_white_2" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/track_checkbox"
+            android:clickable="false"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="3dp" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@id/data_header1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="@string/points_cnt"
+                android:textAppearance="@style/data_header" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/data_value1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/data_header1"
+                android:includeFontPadding="false"
+                android:text="452"
+                android:textAppearance="@style/data_value" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/data_unit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/data_value1"
+                android:layout_toRightOf="@+id/data_value1"
+                android:includeFontPadding="false"
+                android:paddingLeft="5.0px"
+                android:textAppearance="@style/data_unit" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/data_header2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="@string/distance"
+                android:textAppearance="@style/data_header" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/data_value2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/data_header2"
+                android:includeFontPadding="false"
+                android:text="452"
+                android:textAppearance="@style/data_value" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/data_unit2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/data_value2"
+                android:layout_toRightOf="@+id/data_value2"
+                android:includeFontPadding="false"
+                android:paddingLeft="5.0px"
+                android:text="@string/km"
+                android:textAppearance="@style/data_unit" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/data_header3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="@string/duration"
+                android:textAppearance="@style/data_header" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/data_value3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/data_header3"
+                android:includeFontPadding="false"
+                android:text="452"
+                android:textAppearance="@style/data_value" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/data_unit3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/data_value3"
+                android:layout_toRightOf="@+id/data_value3"
+                android:includeFontPadding="false"
+                android:paddingLeft="5.0px"
+                android:textAppearance="@style/data_unit" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

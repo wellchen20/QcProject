@@ -1,0 +1,620 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_smoke"
+    tools:context="com.mtkj.cnpc.activity.MenuFunctionActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/title"
+            layout="@layout/layout_title" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vg_top" >
+
+            <LinearLayout
+                android:id="@+id/vg_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/layout_padding_big" >
+
+                <LinearLayout
+                    android:id="@+id/vg_task_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_padding_big"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/setting_appkey"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_appkey_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_appkey" />
+
+                        <TextView
+                            android:id="@+id/setting_appkey_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text=""
+                            android:drawableRight="@drawable/icon_right_row_gray_2"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vg_task_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_padding_big"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/setting_01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_01_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_01" />
+
+                        <TextView
+                            android:id="@+id/setting_01_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text=""
+                            android:drawableRight="@drawable/icon_right_row_gray_2"/>
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/splite_line_h_gray"
+                        android:layout_marginLeft="@dimen/layout_padding_big"
+                        android:layout_marginRight="@dimen/layout_padding_big" />
+
+                    <LinearLayout
+                        android:id="@+id/setting_02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_02_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_02" />
+
+                        <TextView
+                            android:id="@+id/setting_02_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text=""
+                            android:drawableRight="@drawable/icon_right_row_gray_2"/>
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/splite_line_h_gray"
+                        android:layout_marginLeft="@dimen/layout_padding_big"
+                        android:layout_marginRight="@dimen/layout_padding_big" />
+
+                    <LinearLayout
+                        android:id="@+id/setting_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_11_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_11" />
+
+                        <TextView
+                            android:id="@+id/setting_11_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text=""
+                            android:drawableRight="@drawable/icon_right_row_gray_2"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vg_task_setting_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_padding_big"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:id="@+id/setting"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/bk_vg"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_is_dscloud"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/icon_setting_server_add"
+                            android:drawableRight="@drawable/android_check_box"
+                            android:padding="@dimen/layout_padding"
+                            android:src="@drawable/icon_my_location"
+                            android:text="@string/sys_setting_dscloud" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/splite_line_h_gray"
+                        android:layout_marginLeft="@dimen/layout_padding_big"
+                        android:layout_marginRight="@dimen/layout_padding_big" />
+
+                    <LinearLayout
+                        android:id="@+id/setting_05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_05_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_05" />
+
+                        <TextView
+                            android:id="@+id/setting_05_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text=""
+                            android:drawableRight="@drawable/icon_right_row_gray_2"/>
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/splite_line_h_gray"
+                        android:layout_marginLeft="@dimen/layout_padding_big"
+                        android:layout_marginRight="@dimen/layout_padding_big" />
+
+                    <LinearLayout
+                        android:id="@+id/setting_06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_06_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_06" />
+
+                        <TextView
+                            android:id="@+id/setting_06_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vg_task_setting_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_padding_big"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/setting_03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_03_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_03" />
+
+                        <TextView
+                            android:id="@+id/setting_03_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/splite_line_h_gray"
+                        android:layout_marginLeft="@dimen/layout_padding_big"
+                        android:layout_marginRight="@dimen/layout_padding_big" />
+
+                    <LinearLayout
+                        android:id="@+id/setting_04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_04_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_04" />
+
+                        <TextView
+                            android:id="@+id/setting_04_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/splite_line_h_gray"
+                        android:layout_marginLeft="@dimen/layout_padding_big"
+                        android:layout_marginRight="@dimen/layout_padding_big" />
+
+                    <LinearLayout
+                        android:id="@+id/setting_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_10_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_10" />
+
+                        <TextView
+                            android:id="@+id/setting_10_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/splite_line_h_gray"
+                        android:layout_marginLeft="@dimen/layout_padding_big"
+                        android:layout_marginRight="@dimen/layout_padding_big" />
+
+                    <LinearLayout
+                        android:id="@+id/setting_powertime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_powertime_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_powertime" />
+
+                        <TextView
+                            android:id="@+id/setting_powertime_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vg_task_setting_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_padding_big"
+                    android:background="@color/white"
+                    android:visibility="gone"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <TextView
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_07" />
+
+                        <TextView
+                            style="@style/text_fuction_menu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_into"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/setting_07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_07_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_07" />
+
+                        <TextView
+                            android:id="@+id/setting_07_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/splite_line_h_gray"
+                        android:layout_marginLeft="@dimen/layout_padding_big"
+                        android:layout_marginRight="@dimen/layout_padding_big" />
+
+                    <LinearLayout
+                        android:id="@+id/setting_08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_08_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_08" />
+
+                        <TextView
+                            android:id="@+id/setting_08_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/splite_line_h_gray"
+                        android:layout_marginLeft="@dimen/layout_padding_big"
+                        android:layout_marginRight="@dimen/layout_padding_big" />
+
+                    <LinearLayout
+                        android:id="@+id/setting_09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_09_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_09" />
+
+                        <TextView
+                            android:id="@+id/setting_09_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vg_task_setting_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_padding_big"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/setting_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_12_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_12" />
+
+                        <TextView
+                            android:id="@+id/setting_12_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vg_task_setting_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_padding_big"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/setting_13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bk_vg"
+                        android:clickable="true"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/setting_13_name"
+                            style="@style/text_fuction_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/icon_setting_2"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/task_setting_13" />
+
+                        <TextView
+                            android:id="@+id/setting_13_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/icon_right_row_gray_2"
+                            android:gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/vg_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_padding_middle"
+            android:visibility="gone" >
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

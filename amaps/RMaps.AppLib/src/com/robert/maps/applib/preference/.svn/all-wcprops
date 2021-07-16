@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/669/trunk/RMaps.AppLib/src/com/robert/maps/applib/preference
+END
+PredefMapsPrefActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/583/trunk/RMaps.AppLib/src/com/robert/maps/applib/preference/PredefMapsPrefActivity.java
+END
+OffsetActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/669/trunk/RMaps.AppLib/src/com/robert/maps/applib/preference/OffsetActivity.java
+END
+OffsetPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/584/trunk/RMaps.AppLib/src/com/robert/maps/applib/preference/OffsetPreference.java
+END
+MMPreferenceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/578/trunk/RMaps.AppLib/src/com/robert/maps/applib/preference/MMPreferenceActivity.java
+END
+CustomMapsPrefActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/583/trunk/RMaps.AppLib/src/com/robert/maps/applib/preference/CustomMapsPrefActivity.java
+END
+PairMapsPrefActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/576/trunk/RMaps.AppLib/src/com/robert/maps/applib/preference/PairMapsPrefActivity.java
+END
+MixedMapsPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/583/trunk/RMaps.AppLib/src/com/robert/maps/applib/preference/MixedMapsPreference.java
+END
+UserMapsPrefActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/583/trunk/RMaps.AppLib/src/com/robert/maps/applib/preference/UserMapsPrefActivity.java
+END

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RMaps.AppLib/RMaps.AppLib.iml" filepath="$PROJECT_DIR$/RMaps.AppLib/RMaps.AppLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMaps.Free/RMaps.Free.iml" filepath="$PROJECT_DIR$/RMaps.Free/RMaps.Free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amaps.iml" filepath="$PROJECT_DIR$/amaps.iml" />
+    </modules>
+  </component>
+</project>
